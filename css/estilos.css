@@ -1,0 +1,19 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.container {
+	border: 1px solid gray;
+	display: grid;
+	grid-template-rows: 100px 100px 100px;
+	grid-auto-columns: 100px;
+	grid-auto-flow: column;
+	gap: 10px;
+	height: 600px;
+	margin: 1em;
+	padding: 1em;
+}
+.item {
+	border: 1px solid red;
+	font-size: 24px;
+}
